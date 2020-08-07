@@ -11,6 +11,6 @@ By PVPender
 This module create by wolf from wolfs. AUF!
 ---
 **Official resources:**
-*Documentation: None
-*Official chat: None
-*Source: this repo
+- Documentation: None
+- Official chat: None
+- Source: this repo
