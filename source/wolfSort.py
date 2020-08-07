@@ -31,8 +31,10 @@ class Wolf:
                 if mas[i] < auf_int:
                     auf_mas.insert(0, mas[i])
                     auf_index += 1
-                else:
+                elif mas[i] > auf_int:
                     auf_mas.append(mas[i])
+                else:
+                    auf_mas.insert(auf_index + 1, mas[i])
             auf_mas.pop(auf_index)
             del mas[:]
             mas.extend(auf_mas)
